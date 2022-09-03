@@ -1,0 +1,33 @@
+{
+  "name": "@gpd-lms/config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GPD LMS linter configuration",
+  "author": "Good People Digital",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "yarn lint:scripts",
+    "lint:scripts": "eslint \"./*.js\"",
+    "fix": "yarn fix:scripts",
+    "fix:scripts": "yarn lint:scripts --fix"
+  },
+  "dependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-mdx": "^2.0.2",
+    "eslint-plugin-mdx  ": "^2.0.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-recommended": "^8.0.0",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-prettier": "^2.0.0"
+  }
+}
