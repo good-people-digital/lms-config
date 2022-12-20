@@ -14,7 +14,7 @@
     "fix": "yarn fix:scripts",
     "fix:scripts": "yarn lint:scripts --fix"
   },
-  "dependencies": {
+  "peerDependencies": {
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.1",

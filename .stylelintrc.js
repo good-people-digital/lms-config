@@ -31,10 +31,16 @@ module.exports = {
 				ignore: ['after-comment', 'first-nested'],
 			},
 		],
+		'scss/at-rule-no-unknown': [
+			true,
+			{
+				ignoreAtRules: ['value'],
+			}
+		],
 		'selector-pseudo-class-no-unknown': [
 			true,
 			{
-				'ignorePseudoClasses': ['export']
+				'ignorePseudoClasses': ['export', 'global']
 			}
 		],
 	},
